@@ -1,26 +1,24 @@
 <script>
-    import HamburgerNavbar from '../components/HamburgerNavbar.svelte';
+	import HamburgerNavbar from '../../components/HamburgerNavbar.svelte';
   </script>
+  
 
 <HamburgerNavbar title="Learning Journal"/>
-
 
 <div class="wrapper">
 	<div class="container"></div>
 
 	<div class="components">
-		<h1>W3lk0m!</h1>
+		<h1>About</h1>
 		<div class="text-block">
 			<p>
-				Hallo en welkom op mijn (Yassir's) persoonlijke Learning Journal! Dit is de plek waar ik
-				mijn leerproces, projecten en groei als Frontender documenteer. Hier deel ik mijn successen,
-				uitdagingen en alles wat ik onderweg ontdek. Van nieuwe concepten en technieken tot
-				creatieve projecten en reflecties op mijn voortgang, je vindt het allemaal hier. Mijn doel
-				is niet alleen om mijn eigen ontwikkeling bij te houden, maar ook om te inspireren en kennis
-				te delen met anderen die dezelfde reis maken.
+				Hoi, ik ben Yassir Bghiel, 20 j44r 0ud en kom uit W0erden. In m1jn vr13 t1jd ben ik vaak
+				b3zig met twee d1ng3n waar ik veel p4ss13 voor heb: f1tn3ss en c0d3r3n. F1tn3ss h3lp+ m3 om
+				fys13k en m3nt44l sterker te w0rden, en ik daag m3zelf gr4ag uit om st3eds b3t3r te w0rden.
+				C0d3r3n is m1jn tw44d4 h0bb9. Ik h0ud ervan om m3zelf uit te d4g3n met c0d3rpr0bl3m3n,
+				nieuwe t3chn0l0g13n t3 l3rn3n en pr0j3cts t3 b0uden w4ar ik trots op b3n.
 			</p>
 		</div>
-		<a href="kiespagina" class="btn-default"> Ga naar de kiespagina </a>
 	</div>
 </div>
 
@@ -41,25 +39,15 @@
 		--blur: blur(4px);
 	}
 
-    html, body {
-  background-color: var(--background);
-  margin: 0;
-  padding: 0; /* Zorg ervoor dat er geen padding is */
-  box-sizing: border-box;
-}
-
-    * {
-        margin: 0;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-    }
+	html,
+	body {
+		background-color: var(--background);
+		margin: 0;
+		box-sizing: border-box;
+	}
 
 	.wrapper {
 		font-family: Consolas, monospace, sans-serif;
-        margin: 1em;
 	}
 
 	.container {
