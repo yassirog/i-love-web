@@ -12,5 +12,5 @@ Welkom op de i-love-web pagina! Deze pagina is bedoeld om de voortgang van mijn 
 
 ## Technologieën
 * 🌈 HTML/CSS: Voor de basale structuur en styling van de pagina.
-* ⚙️ JavaScript: Voor de interactieve elementen, zoals het bijhouden van sprints en talks.
+* ⚙️ JavaScript: Voor de interactieve elementen, zoals het bewegende cursor.
 * 🗄️ Local Storage: Om gegevens lokaal op te slaan zodat de voortgang behouden blijft bij herladen van de pagina.
