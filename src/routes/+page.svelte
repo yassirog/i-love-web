@@ -116,6 +116,7 @@
 		font-family: Consolas, monospace, sans-serif;
 		font-weight: bold;
 		cursor: pointer;
+		text-decoration: none;
 		transition:
 			background-color 0.4s,
 			border-color 0.4s,
