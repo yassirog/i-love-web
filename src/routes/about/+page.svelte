@@ -10,6 +10,8 @@
 
 	<div class="components">
 		<h1>About</h1>
+		<img src="./pepe.gif" alt="hacker meme" width="200px">
+
 		<div class="text-block">
 			<p>
 				Hoi, ik ben Yassir Bghiel, 20 j44r 0ud en kom uit W0erden. In m1jn vr13 t1jd ben ik vaak

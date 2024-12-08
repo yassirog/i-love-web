@@ -1,8 +1,3 @@
-<script>
-    import HamburgerNavbar from '../components/HamburgerNavbar.svelte';
-  </script>
-
-<HamburgerNavbar title="Learning Journal"/>
 
 
 <div class="wrapper">
@@ -10,6 +5,7 @@
 
 	<div class="components">
 		<h1>W3lk0m!</h1>
+		<img src="./hack.gif" alt="" width="200px">
 		<div class="text-block">
 			<p>
 				Hallo en welkom op mijn (Yassir's) persoonlijke Learning Journal! Dit is de plek waar ik
@@ -20,7 +16,7 @@
 				te delen met anderen die dezelfde reis maken.
 			</p>
 		</div>
-		<a href="kiespagina" class="btn-default"> Ga naar de kiespagina </a>
+		<a href="choose" class="btn-default"> Ga naar de kiespagina </a>
 	</div>
 </div>
 

@@ -4,21 +4,35 @@
 
 <HamburgerNavbar title="Learning Journal" />
 
-<div><h1>De journal van alle sprints</h1></div>
-
+<h1>De journal van alle sprints</h1>
+<div class="image">
+<img src="./sprint.gif" alt="person running" width="200px">
+</div>
 <section class="journal">
 	<a href="sprint13w1">
 		<h2>Sprint 13, week 1</h2>
-		<p>Hier heb ik geleerd over SvelteKit</p>
+		<p>In week 1 hebben we SvelteKit geïnstalleerd en de basisprincipes geleerd. We ontdekten het verschil tussen Svelte en SvelteKit. We bestudeerden de structuur van een SvelteKit-project en leerden hoe we Directus kunnen integreren om data te ophalen.</p>
 	</a>
 
 	<a href="sprint13w2">
 		<h2>Sprint 13, week 2</h2>
-		<p>In sprint 2 heb ik gewerkt aan JavaScript en DOM-manipulatie.</p>
+		<p>In week 2 werkten we verder aan de squadpage en kregen we een workshop over Figma. We leerden handige shortcuts voor een efficiënter ontwerp. Ook onderzochten we verschillende technieken om snel te werken in Figma.</p>
 	</a>
 	<a href="sprint13w3">
 		<h2>Sprint 13, week 3</h2>
-		<p>Deze sprint ging over het gebruik van API's en het maken van een project.</p>
+		<p>Week 3 stond in het teken van prioriteren met de MoSCoW-methode. We leerden hoe we user stories konden schrijven om de behoeften van gebruikers vast te stellen. De week werd afgesloten met een wrap-up van de sprint en een expo van de squadpage.</p>
+	</a>
+	<a href="sprint14w1">
+		<h2>Sprint 1, week 1</h2>
+		<p>Week 3 stond in het teken van prioriteren met de MoSCoW-methode. We leerden hoe we user stories konden schrijven om de behoeften van gebruikers vast te stellen. De week werd afgesloten met een wrap-up van de sprint en een expo van de squadpage.</p>
+	</a>
+	<a href="sprint14w2">
+		<h2>Sprint 14, week 2</h2>
+		<p>Week 3 stond in het teken van prioriteren met de MoSCoW-methode. We leerden hoe we user stories konden schrijven om de behoeften van gebruikers vast te stellen. De week werd afgesloten met een wrap-up van de sprint en een expo van de squadpage.</p>
+	</a>
+	<a href="sprint13w3">
+		<h2>Sprint 14, week 3</h2>
+		<p>Week 3 stond in het teken van prioriteren met de MoSCoW-methode. We leerden hoe we user stories konden schrijven om de behoeften van gebruikers vast te stellen. De week werd afgesloten met een wrap-up van de sprint en een expo van de squadpage.</p>
 	</a>
 </section>
 
@@ -55,6 +69,8 @@
 		font-family: Consolas, monospace, sans-serif;
 		color: var(--primary);
 		text-align: center;
+		margin-top: 2em;
+		margin: 1em;
 	}
 
 	.journal {
@@ -98,4 +114,10 @@
 	a {
 		text-decoration: none;
 	}
+
+	.image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 </style>

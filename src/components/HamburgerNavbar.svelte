@@ -35,9 +35,23 @@
 </header>
 
 <style>
+  	:root {
+		color-scheme: dark;
+
+		--green: 0, 255, 0;
+		--white: 255, 255, 255;
+
+		--primary-rgb: var(--green);
+		--primary: rgb(var(--primary-rgb));
+		--background: rgb(4, 4, 4);
+		--background-light: rgba(var(--primary-rgb), 0.1);
+		--background-hover: rgba(var(--primary-rgb), 0.4);
+		--border: rgba(var(--primary-rgb), 0.2);
+		--border-radius: 6px;
+		--blur: blur(4px);
+	}
 
   header {
-    background-color: var(--b);
     width: 100%;
     border-bottom: 0.05px solid var(--primary);
     margin-bottom: 1em;
@@ -123,15 +137,6 @@
     border-radius: 5px; 
   }
 
-  .item img {
-    width: 50px;
-    height: 50px;
-    background-color: #1F1F1F;
-    padding: 0.2em;
-    border-radius: 5px;
-    margin-bottom: 10px; 
-  }
-
   .item:hover {
     scale: 1.1;
   }
@@ -145,9 +150,8 @@
     .navigation-items {
       display: none;
       align-items: flex-start;
-      background-color: var(--b);
       height: 100%;
-      padding: 1em;
+      width: 100%;
       position: absolute;
       top: 70px;
       left: 0;
@@ -157,6 +161,7 @@
 
     .navigation-items.open {
       display: flex;
+
     }
 
     .navigation-items .item {
@@ -166,7 +171,8 @@
     }
 
     .navigation-items.open .item {
-      border: 2px solid var(--border-color);
+      border-bottom: 1px solid var(--primary);
+      background-color: var(--background);
     }
   }
 
